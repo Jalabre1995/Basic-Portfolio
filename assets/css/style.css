@@ -1,29 +1,119 @@
-.Font {
+html, body {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 960px;
+    height: fit-content;
+}
+
+body {
+    width: 950px;
+}
+.about-me {
+    width: 100%;
+    text-decoration-line: underline;
+    -webkit-text-stroke: medium;
+}
+
+.about-me .col-left, .about-me .col-right {
+    width: auto;
+    float: left;
+}
+
+.about-me .col-left img {
+    max-width: 100%;
+
+}
+
+.btn-Portfolio {
+    float:right;
+    margin-left: 17px;
+    -webkit-text-stroke: medium;
+    
+}
+
+.btn-Contact {
+    float: right;
+    margin-left: 17px;
+    -webkit-text-stroke: medium;
+}
+
+.btn-About {
+    float: right;
+    -webkit-text-stroke: medium;
+    margin-left: 17px;
+}
+
+
+.div {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: grey;
-    text-align: center;
+    width: 960px;
+    border: 15px solid aqua;
+    padding: 50px;
+    margin: 50px;
+
 }
 
 img {
     vertical-align: middle;
     border-style: none;
+    width: 350px;
+    height: 350px;
+    float: left;
 }
+
+p.clear {
+    clear: both;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 
 h1 {
     font-size: larger;
     margin: auto;
-    padding-bottom: 10%;
+    padding-bottom: 1%;
+    -webkit-text-stroke: medium;
+    font-size: 20px;
+    background-color: #ffffff;
+    display: -webkit-inline-box;
+    border-block-color: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+
+h2 {
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
 
 
-
-
 #copyright { padding-bottom: 20px;
-    background-color: grey;
+    background-color: #666666;
     padding-bottom: 30px;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 15px solid rgb(7, 132, 136);
+    margin: 0px;
+    position: relative;
+    bottom: -130px;
+    width: 155%;
+    height: 2.5rem;
+    height: 10px;
+    margin-top: -100px;
+    clear: both;
 
+}
 
+.box {
+    background-image: url(http://www.nscbiairport.org/mypics/max/0/9065_cartoon-clouds-wallpaper.jpg);
+    
 }

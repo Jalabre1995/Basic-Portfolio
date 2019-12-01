@@ -4,25 +4,41 @@ h1 {
 }
 
 
-.btn-Portfolio {
+.nav-item-Port {
     float:right;
     margin-left: 17px;
     -webkit-text-stroke: medium;
     
 }
 
-.btn-Contact {
+.nav-item-Contact {
     float: right;
     margin-left: 17px;
     -webkit-text-stroke: medium;
 }
 
-.btn-About {
+.nav-item-About {
     float: right;
     -webkit-text-stroke: medium;
     margin-left: 17px;
 }
 
+
+.justify-content-center {
+    float: right;
+}
+
+.card-header:first-child {
+    background-color: white;
+}
+
+.card-1 {
+    background-color: cadetblue;
+}
+
+.nav-link {
+    margin: 10px;
+}
 
 #box {
     width: 400px;
@@ -66,3 +82,13 @@ h1 {
     clear: both;
 
 }
+
+.card-header { 
+    background-color: cadetblue;
+}
+
+.h3, h3 {
+    text-align: center;
+    background-color: cadetblue;
+}
+

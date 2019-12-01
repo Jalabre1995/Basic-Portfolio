@@ -3,6 +3,15 @@ html, body {
     box-sizing: border-box;
 }
 
+.wrapper {
+    width: 1024px;
+    margin: 40px auto;
+    height: 1024px;
+}
+
+h1 {
+    margin: -6px;
+}
 .box {
     width: 960px;
     height: fit-content;
@@ -27,25 +36,36 @@ body {
 
 }
 
-.btn-Portfolio {
+.nav-item-Port {
     float:right;
     margin-left: 17px;
     -webkit-text-stroke: medium;
     
 }
 
-.btn-Contact {
+.nav-item-Contact {
     float: right;
     margin-left: 17px;
     -webkit-text-stroke: medium;
 }
 
-.btn-About {
+.nav-item-About {
     float: right;
     -webkit-text-stroke: medium;
     margin-left: 17px;
 }
 
+.justify-content-center {
+    float: right;
+}
+
+.card-header:first-child {
+    background-color: aqua;
+}
+
+.card-body-copyright {
+    margin: 20px;
+}
 
 .div {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -94,26 +114,19 @@ h2 {
     font-size: 20px;
 }
 
-
-
-#copyright { padding-bottom: 20px;
-    background-color: #666666;
-    padding-bottom: 30px;
+h3 {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border: 15px solid rgb(7, 132, 136);
-    margin: 0px;
-    position: relative;
-    bottom: -130px;
-    width: 155%;
-    height: 2.5rem;
-    height: 10px;
-    margin-top: -100px;
-    clear: both;
-
 }
 
 .box {
     background-image: url(http://www.nscbiairport.org/mypics/max/0/9065_cartoon-clouds-wallpaper.jpg);
     
 }
+@media screen and (max-width:768px) {
+.wrapper {
+    width: 600px;
+    height: 600px;
+    float: left;
+}
+}
+

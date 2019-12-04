@@ -1,4 +1,10 @@
 
+.wrapper {
+    width: 1024px;
+    height: 1024px;
+    margin: 40px auto;
+}
+
 h1 {
     margin: 15px;
 }
@@ -90,5 +96,35 @@ h1 {
 .h3, h3 {
     text-align: center;
     background-color: cadetblue;
+}
+
+@media screen and (max-width: 576px) {
+    .wrapper {
+        width: 576px;
+        height: 356px;
+    
+    
+    }
+    }
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 768px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .wrapper {
+        width: 992px;
+        height: 770px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        width: 1200px ;
+        height: 900px ;
+    }
 }
 

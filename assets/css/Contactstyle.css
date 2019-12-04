@@ -1,3 +1,13 @@
+ body {
+     background-color:rgba(13, 56, 173, 0.308) ;
+ }
+
+.wrapper {
+    width: 1024px;
+    height: 1024px;
+    margin: 40px auto;
+}
+
 
 
 h1 {
@@ -60,11 +70,6 @@ input {
     margin: 21px;
 }
 
-.wrapper {
-    width: 600px;
-    margin: 21px;
-    
-}
 
 
 textarea {
@@ -89,8 +94,40 @@ textarea {
     margin: -2px;
     padding: 10px;
     border-color: cornflowerblue;
+    width: 100%;
 }
 
 .btn-primary {
     margin: 12px;
 }
+
+@media screen and (max-width: 576px) {
+    .wrapper {
+        width: 576px;
+        height: 356px;
+    
+    
+    }
+    }
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 768px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .wrapper {
+        width: 992px;
+        height: 770px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        width: 1200px ;
+        height: 900px ;
+    }
+}
+

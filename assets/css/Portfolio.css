@@ -59,8 +59,23 @@ h1 {
 }
 
 .img-thumbnail {
-    max-width: 63%;
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
 }
+
+.img-trivia {
+    height: 250px;
+}
+
+.img-RPG {
+    margin-top: 5px;
+    height: 190px;
+}
+
 
 .row {
     margin-right: -15px;

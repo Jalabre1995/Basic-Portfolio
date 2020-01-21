@@ -5,11 +5,7 @@
     <Title>Contact</Title>
     <link href="assets/css/Contactstyle.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<style>
-body {
-    background-color: rgba(13, 56, 173, 0.308);
-}
-</style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -21,21 +17,23 @@ body {
         <div class="card-body">
             <h1>Joshua Alabre</h1>
             <ul class="nav justify-content-center">
-             <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
+             <li class="list-group-item">
+                <a href="portfolio.html"class="btn btn-secondary btn-lg active" id="Portfolio" role="button" aria-pressed="true">Portfolio</a>
             </li>
-             <li class="nav-item">
-             <a class="nav-link" href="#">Contact</a>
+             <li class="list-group-item">
+                <a href="contact.html" class="btn btn-secondary btn-lg active" id="Contact"   role="button" aria-pressed="true">Contact</a>
             </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">About Me</a>
+            <li class="list-group-item">
+                <a href="index.html" class="btn btn-secondary btn-lg active" id="About-Me" role="button" aria-pressed="true">About-Me</a>
             </li>
             </ul>
      </div>
     </div>
 
 <!------------------ Body Section ----------------------->
-    <h2>Contact</h2>
+<div class="card bg-light mb-3" id="con-tact" style="max-width: 18rem;">
+    <div class="card-header">Contact</div>
+  </div>
     <div class="wrapper">
         <input type="text" name="" id="Your-Name"
         placeholder="Your Name">
@@ -43,20 +41,18 @@ body {
         placeholder="Your Email">
         <textarea name="" id="textarea" cols="30px" rows="30px"
         placeholder="Message"></textarea>
+        <input class="btn btn-primary" type="submit" value="Submit">
     </div>
-    <div id="Submit-Button">
-        <button type="button" class="btn btn-primary">Submit</button>
-        </div>
+    </div>
 
 <!-------------------- Footer Section ------------------------->
 <div class="card">
     <div class="card-header">
-      <h3>Copyright</h3> 
+      Copyright
     </div>
-    <div class="card-body-copyright">
+    <div class="card-body">
     </div>
   </div>
-</div>
 </body>
 </html>
 

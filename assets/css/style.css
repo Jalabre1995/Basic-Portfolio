@@ -19,6 +19,7 @@ h1 {
 
 body {
     width: 950px;
+    background-image: url("http://ilovehdwallpapers.com/walls/simple-amazing-background-wide.jpg");
 }
 .about-me {
     width: 100%;
@@ -36,20 +37,24 @@ body {
 
 }
 
-.nav-item-Port {
+#Portfolio {
     float:right;
     margin-left: 17px;
     -webkit-text-stroke: medium;
     
 }
 
-.nav-item-Contact {
+#Contact {
     float: right;
     margin-left: 17px;
     -webkit-text-stroke: medium;
 }
 
-.nav-item-About {
+.card-body {
+    background-color: ghostwhite;
+}
+
+#About-Me {
     float: right;
     -webkit-text-stroke: medium;
     margin-left: 17px;
@@ -112,6 +117,7 @@ h2 {
     font-size: larger;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
+    color: white;
 }
 
 h3 {
@@ -122,6 +128,19 @@ h3 {
     background-image: url(http://www.nscbiairport.org/mypics/max/0/9065_cartoon-clouds-wallpaper.jpg);
     
 }
+.card {
+    width: 147%;
+}
+
+.col-right {
+    color: white;
+}
+
+.text-center { 
+    width: 158%;
+
+}
+
 @media screen and (max-width: 576px) {
     .wrapper {
         width: 576px;

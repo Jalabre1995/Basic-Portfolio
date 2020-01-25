@@ -140,34 +140,3 @@ h3 {
     width: 158%;
 
 }
-
-@media screen and (max-width: 576px) {
-    .wrapper {
-        width: 576px;
-        height: 356px;
-    
-    
-    }
-    }
-
-@media screen and (max-width: 768px) {
-    .wrapper {
-        width: 768px;
-        height: 600px;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .wrapper {
-        width: 992px;
-        height: 770px;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .wrapper {
-        width: 1200px ;
-        height: 900px ;
-    }
-}
-

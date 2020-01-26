@@ -69,6 +69,15 @@ h1 {
 
 .img-trivia {
     height: 250px;
+    width: 300px;
+}
+
+#Password-Generator {
+    width: 300px;
+}
+
+#Gaming-API {
+    height: 200px;
 }
 
 .img-RPG {

@@ -122,6 +122,11 @@ h1 {
     background-color: cadetblue;
 }
 
+#NBA-Game {
+    margin-top: 5px;
+    height: 190px;
+}
+
 @media screen and (max-width: 576px) {
     .wrapper {
         width: 576px;

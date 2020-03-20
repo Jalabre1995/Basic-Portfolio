@@ -9,6 +9,7 @@ html, body {
     height: 1024px;
 }
 
+
 h1 {
     margin: -6px;
 }
@@ -19,7 +20,7 @@ h1 {
 
 body {
     width: 950px;
-    background-image: url("http://ilovehdwallpapers.com/walls/simple-amazing-background-wide.jpg");
+    background-image: url("https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/383690/f7a121a3f7a929ffb4dbc3ae241b3b4b6eaaed1d.jpg");
 }
 .about-me {
     width: 100%;
@@ -65,7 +66,7 @@ body {
 }
 
 .card-header:first-child {
-    background-color: aqua;
+    background-color: rgba(22, 228, 255, 0.698);
 }
 
 .card-body-copyright {
@@ -95,7 +96,7 @@ p.clear {
 }
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 
@@ -106,16 +107,16 @@ h1 {
     padding-bottom: 1%;
     -webkit-text-stroke: medium;
     font-size: 20px;
-    background-color: #ffffff;
+    background-color: #ffffffc9;
     display: -webkit-inline-box;
     border-block-color: #cccccc;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
 h2 {
     font-size: larger;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     color: white;
 }
@@ -125,7 +126,7 @@ h3 {
 }
 
 .box {
-    background-image: url(http://www.nscbiairport.org/mypics/max/0/9065_cartoon-clouds-wallpaper.jpg);
+    background-image: url("http://www.nscbiairport.org/mypics/max/0/9065_cartoon-clouds-wallpaper.jpg");
     
 }
 .card {

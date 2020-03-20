@@ -9,6 +9,10 @@ html, body {
     height: 1024px;
 }
 
+#text{
+    font-family: sans-serif;
+}
+
 
 h1 {
     margin: -6px;
@@ -91,12 +95,10 @@ img {
     float: left;
 }
 
-p.clear {
-    clear: both;
-}
+
 
 p {
-    font-family: Arial, Helvetica, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: auto;
 }
 
 

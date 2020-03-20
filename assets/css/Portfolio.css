@@ -128,12 +128,12 @@ h2 {
 }
 
 .card-header { 
-    background-color: cadetblue;
+    background-color: rgb(54, 222, 228);
 }
 
 .h3, h3 {
     text-align: center;
-    background-color: cadetblue;
+    background-color: rgb(67, 214, 219);
 }
 
 #NBA-Game {

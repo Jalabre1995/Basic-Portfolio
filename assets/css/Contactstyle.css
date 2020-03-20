@@ -57,7 +57,7 @@ h3 {
 }
 
 .card-header:first-child {
-    background-color:bisque;
+    background-color:rgb(64, 233, 255);
 }
 
 .card-header {
@@ -91,7 +91,7 @@ textarea {
 .card {
     margin: -2px;
     padding: 10px;
-    border-color: cornflowerblue;
+    border-color: rgb(24, 246, 246);
     width: 100%;
 }
 

@@ -151,6 +151,11 @@ h2 {
     height: 150px;
     width: 310px;
 }
+#Day-Planner{
+    margin-top: 50px;
+    height: 150px;
+    width: 150px;
+}
 
 @media screen and (max-width: 576px) {
     .wrapper {
